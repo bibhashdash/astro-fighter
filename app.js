@@ -79,7 +79,6 @@ function update() {
   }
 
   if (cursors.up.isDown && player.body.touching.down) {
-    console.log("pressed up")
     player.setVelocityY(-330);
   }
 }
